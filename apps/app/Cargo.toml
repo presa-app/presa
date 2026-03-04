@@ -1,0 +1,14 @@
+[package]
+name = "presa-app"
+version = "1.0.0-local"
+edition.workspace = true
+
+[build-dependencies]
+tauri-build = { workspace = true }
+
+[dependencies]
+tauri = { workspace = true }
+tauri-plugin-opener = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+

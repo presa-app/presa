@@ -1,0 +1,14 @@
+{
+  "name": "@presa/assets",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "lint": "prettier --check .",
+    "fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "@presa/tooling-config": "workspace:*"
+  }
+}

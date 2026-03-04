@@ -1,0 +1,16 @@
+{
+  "name": "@presa/monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "app:dev": "turbo run dev --filter=@presa/app",
+    "app:build": "turbo run build --filter=@presa/app",
+    "lint": "turbo run lint --continue",
+    "fix": "turbo run fix --continue"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.13",
+    "prettier": "^3.8.1"
+  },
+  "packageManager": "pnpm@10.30.3"
+}

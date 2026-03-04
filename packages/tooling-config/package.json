@@ -1,0 +1,20 @@
+{
+  "name": "@presa/tooling-config",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --check .",
+    "fix": "prettier --write ."
+  },
+  "exports": {
+    "./typescript/*": "./typescript/*",
+    "./frontend.prettier.config.cjs": "./frontend.prettier.config.cjs"
+  },
+  "files": [
+    "typescript/",
+    "frontend.prettier.config.cjs"
+  ]
+}

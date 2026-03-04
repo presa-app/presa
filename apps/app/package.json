@@ -1,0 +1,15 @@
+{
+  "name": "@presa/app",
+  "scripts": {
+    "tauri": "tauri",
+    "build": "tauri build",
+    "dev": "tauri dev"
+  },
+  "packageManager": "pnpm@10.30.3",
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.10.0"
+  },
+  "dependencies": {
+    "@presa/app-frontend": "workspace:*"
+  }
+}

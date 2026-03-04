@@ -1,0 +1,3 @@
+{
+  "extends": "@presa/tooling-config/typescript/svelte.json"
+}
