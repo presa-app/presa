@@ -9,6 +9,9 @@
     "lint": "prettier --check .",
     "fix": "prettier --write ."
   },
+  "devDependencies": {
+    "@tsconfig/svelte": "^5.0.4"
+  },
   "exports": {
     "./typescript/*": "./typescript/*",
     "./frontend.prettier.config.cjs": "./frontend.prettier.config.cjs"
