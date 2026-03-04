@@ -9,8 +9,11 @@
     "fix": "turbo run fix --continue"
   },
   "devDependencies": {
+    "@unocss/svelte-scoped": "^66.6.4",
+    "app-frontend": "^12.2.0",
+    "prettier": "^3.8.1",
     "turbo": "^2.8.13",
-    "prettier": "^3.8.1"
+    "unocss": "^66.6.4"
   },
   "packageManager": "pnpm@10.30.3"
 }
